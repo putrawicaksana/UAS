@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> login</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            alert("Welcome");
+            var jam = 24;
+            if(jam<=10)
+            {
+                alert("Selamat Pagi !!!");
+            }
+            else if(jam>10 && jam<15)
+            {
+                alert("Selamat Siang !!!");
+            }
+            else if(jam>15 && jam<18)
+            {
+                alert("Selamat Sore !!!");
+            }
+            else if(jam>18)
+            {
+                alert("Selamat Malam !!!");
+            }
+        </script>
+        <script type="text/javascript">
+            var konfirmasi= confirm("Apakah Anda Yakin Untuk Buka Halaman Ini ?");
+            if(konfirmasi = true)
+            {
+                document.location.href="index.html";
+            }
+            else 
+            {
+                document.location.href="login.html";
+            }
+        </script>
+    </body>
+</html>
